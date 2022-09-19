@@ -1,0 +1,19 @@
+{
+  "name": "@multiapp/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watchman-config": "watchman watch C:\\Users\\38068\\AppData\\Roaming\npm\node_modules\\wml\\src",
+    "wml-config": "wml add ../common ./node_modules/@multiapp/common",
+    "wml-start": "wml start"
+  },  
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.70.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
